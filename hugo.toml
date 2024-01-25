@@ -1,0 +1,32 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Simples informática"
+theme = "PaperMod"
+
+
+[params]
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+label.icon = "/img/logodoida.jpg"
+
+    [params.homeInfoParams]
+    title = "Olá Mundo"
+    content = "Bem vindos a área de manuais da Simples Informática!"
+
+[[menu.main]]
+identifier = "categories"
+name = "Categorias"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Publicações"
+url = "/archives/"
+weight = 30
